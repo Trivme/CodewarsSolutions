@@ -16,3 +16,10 @@ function removeExclamationMarks(s) {
   return s.replace(/!/g, '');
 }
 
+``` https://www.codewars.com/kata/reverse-list-order```
+## Reverse List Order
+
+ function reverseList(list) {
+  return list.reverse();
+ }
+
