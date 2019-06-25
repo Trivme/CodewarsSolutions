@@ -23,3 +23,10 @@ function removeExclamationMarks(s) {
   return list.reverse();
  }
 
+```https://www.codewars.com/kata/you-cant-code-under-pressure-number-1```
+## You Can't Code Under Pressure #1
+
+function doubleInteger(i) {
+   return i * 2;
+}
+
