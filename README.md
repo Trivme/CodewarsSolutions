@@ -10,3 +10,9 @@ function seatsInTheater(nCols, nRows, col, row) {
 }
 
 
+```https://www.codewars.com/kata/remove-exclamation-marks```
+
+function removeExclamationMarks(s) {
+  return s.replace(/!/g, '');
+}
+
