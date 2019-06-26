@@ -109,4 +109,3 @@ function getIssuer(n) {
    else return 'Unknown';
 }
 ```
-
