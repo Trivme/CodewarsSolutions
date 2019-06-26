@@ -56,7 +56,7 @@ function stringToArray(string){
 ```
 
 ###Determine offspring sex based on genes XX and XY chromosomes
-Determine offspring sex based on genes XX and XY chromosomes
+https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/javascript
 ```javascript
 function chromosomeCheck(sperm) {
   if(sperm.includes('Y') === true) return "Congratulations! You're going to have a son.";
