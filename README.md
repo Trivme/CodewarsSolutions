@@ -55,7 +55,7 @@ function stringToArray(string){
 }
 ```
 
-###Determine offspring sex based on genes XX and XY chromosomes
+### Determine offspring sex based on genes XX and XY chromosomes
 https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/javascript
 ```javascript
 function chromosomeCheck(sperm) {
@@ -64,5 +64,14 @@ function chromosomeCheck(sperm) {
 }
 ```
 
-
+### Thinkful - Logic Drills: Traffic light
+https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/javascript
+```javascript
+function updateLight(current) {
+  let lights = ['green', 'yellow', 'red'];
+  if(current === lights[0]) return lights[1];
+  if(current === lights[1]) return lights[2];
+  if(current === lights[2]) return lights[0];
+}
+```
 
