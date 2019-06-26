@@ -49,11 +49,20 @@ https://github.com/bogutski/js-road-map/blob/master/tasks.md
 
 ### Convert a string to an array
 https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
-```Javascript
+```javascript
 function stringToArray(string){
   return string.split(' ');
 }
 ```
 
-###
+###Determine offspring sex based on genes XX and XY chromosomes
+Determine offspring sex based on genes XX and XY chromosomes
+```javascript
+function chromosomeCheck(sperm) {
+  if(sperm.includes('Y') === true) return "Congratulations! You're going to have a son.";
+  else return "Congratulations! You're going to have a daughter.";
+}
+```
+
+
 
