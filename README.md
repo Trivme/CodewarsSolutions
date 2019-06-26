@@ -45,6 +45,7 @@ function doubleInteger(i) {
 ## Tasks from Victor's list + others )
 https://github.com/bogutski/js-road-map/blob/master/tasks.md
 
+---
 ##1. Initial level
 
 ### Convert a string to an array
@@ -85,4 +86,6 @@ Sleigh.prototype.authenticate = function(name, password) {
   else return false;
 }
 ```
+---
+##2. Strings
 
