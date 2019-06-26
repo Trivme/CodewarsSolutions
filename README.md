@@ -89,3 +89,24 @@ Sleigh.prototype.authenticate = function(name, password) {
 ---
 ##2. Strings
 
+### Random case
+https://www.codewars.com/kata/random-case/train/javascript
+
+Нужна помощь
+
+###Credit card issuer checking
+https://www.codewars.com/kata/5701e43f86306a615c001868
+```javascript
+function getIssuer(n) {
+   let str = n.toString(10);
+   console.log(typeof n);
+   console.log(str);
+   console.log(str.length);
+   if(str[0] === '3' && str.length === 15) return 'AMEX';
+   if(str[0] === '6' && str[1] === '0' && str[2] === '1' && str[3] === '1' && str.length === 16) return 'Discover';
+   if(str[0] === '5' && str[1] >= '1' && str[1] <= '5' && str.length === 16) return 'Mastercard';  
+   if(str[0] === '4' && (str.length === 13 || str.length === 16)) return 'VISA'; 
+   else return 'Unknown';
+}
+```
+
