@@ -188,3 +188,15 @@ function palindrome(num) {
 } 
 ```
 
+### Find the calculation type
+https://www.codewars.com/kata/find-the-calculation-type/train/javascript
+```javascript
+function calcType(a, b, res) {
+  const operation = ['addition', 'subtraction', 'multiplication', 'division'];
+  if(res === a + b) return operation[0];
+  else if(res === a - b) return operation[1];
+  else if(res === a * b) return operation[2];
+  else if(res === a / b) return operation[3];
+}
+```
+
