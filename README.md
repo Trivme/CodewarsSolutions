@@ -228,6 +228,7 @@ function reverseNumber(n) {
 
 ## !String average
 https://www.codewars.com/kata/string-average/train/javascript
+I could'n made it by myself and had to watch Victor' video. But I tried to do the same 2 weeks ago - and I understood nothing then.
 ```javascript
 function averageString(str) {
    
