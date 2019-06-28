@@ -209,3 +209,21 @@ function countRedBeads(n) {
 }
 ```
 
+### Reverse a Number
+https://www.codewars.com/kata/reverse-a-number/train/javascript
+```javascript
+function reverseNumber(n) {
+  let nRev;
+  if(n >= 0){
+    nRev = +(n.toString().split('').reverse().join(''));
+    return nRev;
+  } else 
+  if(n < 0){
+    n = n * (-1);
+    nRev = +(n.toString().split('').reverse().join(''));
+    return nRev * -1;
+  }
+} 
+```
+
+
