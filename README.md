@@ -152,3 +152,18 @@ function sumR(x) {
 }
 ```
 
+### Remove duplicates from list
+https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript
+```javascript
+function distinct(a) {
+let newA = [];
+ 
+    for(let i=0; i < a.length; i++){
+      if(a[i] != a[i + 1]){
+        newA.push(a[i]);
+      }
+    }
+  return newA;
+}
+```
+
