@@ -123,3 +123,18 @@ function solution(number){
 }
 ```
 
+### Mumbling
+https://www.codewars.com/kata/mumbling/train/javascript
+```javascript
+function accum(s) {
+  let arr = s.split('');
+  let accArr = [];
+  let accStr = '';
+  
+  for(let i = 0; i < arr.length; i++){
+    accArr.push(arr[i].toUpperCase() + arr[i].toLowerCase().repeat(i));
+  }
+  accStr = accArr.join('-');
+ return accStr;
+}
+```
