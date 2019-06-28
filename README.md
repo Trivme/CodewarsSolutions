@@ -200,3 +200,12 @@ function calcType(a, b, res) {
 }
 ```
 
+### Simple beads count
+https://www.codewars.com/kata/simple-beads-count/train/javascript
+```javascript
+function countRedBeads(n) {
+  if(n < 2) return 0;
+  else return (n - 1) * 2;
+}
+```
+
