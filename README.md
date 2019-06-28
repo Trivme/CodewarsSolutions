@@ -167,3 +167,24 @@ let newA = [];
 }
 ```
 
+### Numerical Palindrome #1
+https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript
+```javascript
+function palindrome(num) { 
+  if(typeof num !== 'number' || num < 0){
+      return 'Not valid';
+  }
+  
+  let numToArr = num.toString().split('');
+  const med = Math.floor(numToArr.length / 2);
+  
+  for(let i = 0; i <= med; i++){
+      if(numToArr[i] !== numToArr[numToArr.length - 1 - i]){
+          return false;
+      }
+  }
+  return true;
+  
+} 
+```
+
