@@ -258,7 +258,13 @@ function smash (words) {
     return words.join(' ');
 };
 ```
-
+### Reversing Words in a String
+https://www.codewars.com/kata/reversing-words-in-a-string/train/javascript
+```javascript
+function reverse(string){
+   return string.split(' ').reverse().join(' ');
+ }
+```
 
 
 
