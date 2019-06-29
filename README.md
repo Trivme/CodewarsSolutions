@@ -251,10 +251,13 @@ function averageString(str) {
 }
 ```
 ### New solution after 400
-### Shortest Code : Guess the Hat
- 
-
-## Reach 400
+### Sentence Smash
+https://www.codewars.com/kata/sentence-smash/train/javascript
+```javascript
+function smash (words) {
+    return words.join(' ');
+};
+```
 
 
 
