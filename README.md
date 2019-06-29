@@ -254,5 +254,9 @@ function averageString(str) {
 ### Shortest Code : Guess the Hat
  
 
+## Reach 400
+
+
+
 
 
