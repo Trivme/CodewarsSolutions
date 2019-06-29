@@ -251,6 +251,7 @@ function averageString(str) {
 }
 ```
 ### New solution after 400
+### Shortest Code : Guess the Hat
  
 
 
