@@ -250,6 +250,8 @@ function averageString(str) {
   return n[avg];
 }
 ```
+### New solution after 400
+ 
 
 
 
