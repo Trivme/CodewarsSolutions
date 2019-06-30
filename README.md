@@ -296,4 +296,19 @@ https://www.codewars.com/kata/enumerable-magic-number-25-take-the-first-n-elemen
 ```javascript
 const take = (arr, n) => arr.slice(0, n);
 ```
+### Sum of differences in array
+https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e
+```javascript
+function sumOfDifferences(arr) {
+  if(arr.length <= 1) return 0;
+  
+  const sortArr = arr.sort((a, b) => b - a);
+  let sum = 0;
+  
+  for(let i = 1; i < sortArr.length; i++){
+    sum += sortArr[i - 1] - sortArr[i];
+  }
+  return sum;
+}
+```
 
