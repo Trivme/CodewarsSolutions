@@ -265,7 +265,15 @@ function reverse(string){
    return string.split(' ').reverse().join(' ');
  }
 ```
-
+### Filter out the geese
+https://www.codewars.com/kata/filter-out-the-geese/javascript
+```javascript
+function gooseFilter (birds) {
+  const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  
+  return birds.filter(item => !geese.includes(item)); 
+}
+```
 
 
 
