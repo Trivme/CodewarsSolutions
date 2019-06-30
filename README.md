@@ -329,4 +329,14 @@ https://www.codewars.com/kata/grasshopper-personalized-message
 const greet = (name, owner) => 'Hello ' + (name === owner ? 'boss' : 'guest');
 ```
 
-
+### Lario and Muigi Pipe Problem
+https://www.codewars.com/kata/lario-and-muigi-pipe-problem
+```javascript
+function pipeFix(numbers){
+  let arr = [];
+  for(let i = numbers[0]; i <= numbers[numbers.length - 1]; i++){
+    arr.push(i);
+  }
+  return arr;
+}
+```
