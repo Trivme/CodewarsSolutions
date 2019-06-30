@@ -285,9 +285,9 @@ function check(a,x){
 ### Will there be enough space?
 https://www.codewars.com/kata/will-there-be-enough-space/javascript
 ```javascript
-function enough(cap, on, wait) {
-  if(((on + wait) - cap) < 0) return 0
-  else return ((on + wait) - cap);
-}
+ffunction enough(cap, on, wait) {
+   let room = ((on + wait) - cap);
+   return room < 0 ? 0 : room;
+ }
 ```
 
