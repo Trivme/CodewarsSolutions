@@ -311,4 +311,17 @@ function sumOfDifferences(arr) {
   return sum;
 }
 ```
+### Clean up after your dog
+https://www.codewars.com/kata/clean-up-after-your-dog/train/javascript
+```javascript
+function crap(x, bags, cap){
+  let str = x.toString();
+  if(str.includes('D')) return 'Dog!!';
+  let count = str.split('@').length - 1;
+  if(bags * cap >= count) return 'Clean';
+  else return 'Cr@p';
+}
+```
+
+
 
