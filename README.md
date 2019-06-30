@@ -340,3 +340,18 @@ function pipeFix(numbers){
   return arr;
 }
 ```
+### Random case
+https://www.codewars.com/kata/random-case/
+```javascript
+function randomCase(x) {
+let xStr = '';
+  for(let i = 0; i < x.length; i++){
+    if(Math.round(Math.random()) > 0){
+      xStr += x[i].toUpperCase();
+    } else {
+      xStr += x[i].toLowerCase();
+    }
+  }
+  return xStr;
+}
+```
