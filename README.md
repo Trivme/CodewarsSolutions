@@ -323,5 +323,10 @@ function crap(x, bags, cap){
 }
 ```
 
+### Grasshopper - Personalized Message
+https://www.codewars.com/kata/grasshopper-personalized-message
+```javascript
+const greet = (name, owner) => 'Hello ' + (name === owner ? 'boss' : 'guest');
+```
 
 
