@@ -285,9 +285,15 @@ function check(a,x){
 ### Will there be enough space?
 https://www.codewars.com/kata/will-there-be-enough-space/javascript
 ```javascript
-ffunction enough(cap, on, wait) {
+function enough(cap, on, wait) {
    let room = ((on + wait) - cap);
    return room < 0 ? 0 : room;
  }
+```
+
+### Enumerable Magic #25 - Take the First N Elements
+https://www.codewars.com/kata/enumerable-magic-number-25-take-the-first-n-elements/javascript
+```javascript
+const take = (arr, n) => arr.slice(0, n);
 ```
 
