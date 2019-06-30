@@ -266,6 +266,7 @@ function reverse(string){
  }
 ```
 ### Filter out the geese
+!!! I have to repeat it
 https://www.codewars.com/kata/filter-out-the-geese/javascript
 ```javascript
 function gooseFilter (birds) {
@@ -274,6 +275,12 @@ function gooseFilter (birds) {
   return birds.filter(item => !geese.includes(item)); 
 }
 ```
-
+### No Loops 2 - You only need one
+https://www.codewars.com/kata/no-loops-2-you-only-need-one/train/javascript
+```javascript
+function check(a,x){
+  return a.includes(x);
+}
+```
 
 
