@@ -390,3 +390,13 @@ function oddCount(n){
   return Math.floor(n / 2);
 }
 ```
+### Difference of Volumes of Cuboids
+https://www.codewars.com/kata/58cb43f4256836ed95000f97
+``javascript
+function findDifference(a, b) {
+  let vol1 =a[0] * a[1] * a[2];
+  let vol2 =b[0] * b[1] * b[2];
+  return Math.abs(vol1 - vol2);
+}
+``
+
