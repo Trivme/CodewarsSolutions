@@ -375,6 +375,12 @@ function solve(arr){
   return arrN;
 };
 ```
-
+### Can we divide it?
+https://www.codewars.com/kata/can-we-divide-it/javascript
+```javascript
+function isDivideBy(number, a, b) {
+  return number % a === 0 && number % b ===0;
+}
+```
 
 
