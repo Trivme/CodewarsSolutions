@@ -423,4 +423,13 @@ function findSum(n) {
   return sum;
 }
 ```
+### Do I get a bonus?
+https://www.codewars.com/kata/do-i-get-a-bonus/
+```javascript
+function bonusTime(salary, bonus) {
+  let total;
+  return  bonus ? `£${salary * 10}` : `£${salary}`
+}
+```
+
 
