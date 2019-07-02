@@ -399,4 +399,14 @@ function findDifference(a, b) {
   return Math.abs(vol1 - vol2);
 }
 ``
-
+### Sum Mixed Array
+https://www.codewars.com/kata/sum-mixed-array/
+```javascript
+function sumMix(x){
+  let sum = 0;
+  for(let i = 0; i < x.length; i++){
+    sum += +x[i];
+  }
+  return sum;
+}
+```
