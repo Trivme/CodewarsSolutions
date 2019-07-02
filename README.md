@@ -427,9 +427,15 @@ function findSum(n) {
 https://www.codewars.com/kata/do-i-get-a-bonus/
 ```javascript
 function bonusTime(salary, bonus) {
-  let total;
   return  bonus ? `£${salary * 10}` : `£${salary}`
 }
 ```
 
+### String ends with?
+https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
 
+```javascript
+function solution(str, ending){
+  return str.slice((str.length - ending.length)) === ending;
+}
+```
