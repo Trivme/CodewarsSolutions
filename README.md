@@ -494,4 +494,37 @@ function doubleChar(str) {
   return resStr;
 }
 ```
+### Fix string case
+https://www.codewars.com/kata/fix-string-case/
+```javascript
+ffunction solve(s) {
+   let countUC = 0; 
+ 	let countLC = 0; 
+   
+   for ( let i = 0; i < s.length; i++) {
+       let letter = s[i];
+       letter === letter.toUpperCase() ? countUC +=1 : countLC +=1;
+   }
+    
+   if ( countUC > countLC) return s.toUpperCase()
+   else  if ( countUC < countLC) return s.toLowerCase()
+   else return s.toLowerCase();
+ }
+```
+
+### Bit Counting 
+Как уйти от цикла for в этой задаче???
+https://www.codewars.com/kata/bit-counting
+```javascript
+let countBits = function(n) {
+  let arrN = n.toString(2).split('');
+  let result = 0;
+  
+  for(let i = 0; i < arrN.length; i++){
+    let num = +(arrN[i]);
+    result += num;
+  }
+   return result;
+}
+```
 
