@@ -454,3 +454,31 @@ function spongeMeme(sentence) {
   return str;
 }
 ```
+### Sort the odd
+https://www.codewars.com/kata/sort-the-odd
+```javascript
+function sortArray(array) {
+  const odd = [];
+  const even = [];
+  const end = [];
+for (let i = 0; i < array.length; i++) {
+    if (array[i]%2 === 0) {
+      even.push(array[i]);
+    } else {
+      odd.push(array[i]);
+    }
+  }
+  
+  odd.sort((a, b) => a - b);
+  
+  for (let i = 0; i < array.length; i++) {
+    if (array[i]%2 === 0) {
+      end.push(even.shift());
+    } else {
+      end.push(odd.shift());
+    }
+  }
+  return end;
+}
+
+
