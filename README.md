@@ -480,5 +480,18 @@ for (let i = 0; i < array.length; i++) {
   }
   return end;
 }
+```
 
+
+### Double Char
+https://www.codewars.com/kata/double-char
+```javascript
+function doubleChar(str) {
+  let resStr = '';
+  for(let i = 0; i < str.length; i++){
+    resStr += str[i] + str[i];
+  }
+  return resStr;
+}
+```
 
