@@ -528,3 +528,21 @@ let countBits = function(n) {
 }
 ```
 
+### Fake Binary
+https://www.codewars.com/kata/fake-binary
+```javascript
+function fakeBin(x){
+  let arr = x.split('');
+  let arr01 = [];
+  console.log(arr);
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] < 5){
+      arr01.push(0);
+    }
+    if(arr[i] >= 5){
+      arr01.push(1);
+    }
+  }
+  return arr01.join('');
+}
+```
