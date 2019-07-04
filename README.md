@@ -562,4 +562,16 @@ function getCount(str) {
 }
 ```
 
-
+### Vowel one
+https://www.codewars.com/kata/vowel-one/
+```javascript
+function vowelOne(str){
+  str = str.toLowerCase();
+  const vowels = 'aeiou';
+  let digStr = '';
+  for(let i = 0; i < str.length; i++){
+    vowels.includes(str[i]) ? digStr += '1': digStr += '0';
+  }
+  return digStr;
+}
+```
