@@ -575,3 +575,23 @@ function vowelOne(str){
   return digStr;
 }
 ```
+### Simple Pig Latin
+https://www.codewars.com/kata/simple-pig-latin
+```javascript
+ function pigIt(str){
+   let tagArr = [];
+   let arr = str.split(' ');
+   
+   for(let i = 0; i < arr.length; i++){
+      if(arr[i] !== '?' && arr[i] !== '!'){ 
+         let item = arr[i].split('');
+         item.splice(item.length, 0, item[0]);
+         item.shift(0);
+         item.push('a', 'y');
+         let word = item.join('');
+         tagArr.push(word);
+       } else tagArr.push(arr[i]);
+    }
+    return tagArr.join(' ');
+ }
+```
