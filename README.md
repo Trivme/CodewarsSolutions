@@ -745,5 +745,24 @@ function meeting(x){
   return x.indexOf('O') > -1 ? x.indexOf('O') : 'None available!';
 }
 ```
-
+### The Office V - Find a Chair
+ps://www.codewars.com/kata/the-office-v-find-a-chair/
+```javascript
+// repeat it again
+function meeting(x, need){
+if(!need) return 'Game On';
+const r = [];
+let rest = need;
+for(let i = 0; i < x.length; i++){
+  if(rest > 0){
+    let c = x[i][1] - x[i][0].length;
+    r.push(c > 0 ? (c > rest ? rest : c) : 0);
+    if(c > 0) rest -= c;
+  } else {
+    return r;
+  }
+ }
+ return rest <= 0 ? r : 'Not enough!';
+}
+```
 
