@@ -623,5 +623,18 @@ const max = list =>  Math.max(...list);
 ```
 ```javascript
 //var2
-
+const min = list =>  {
+  let mn = list[0];
+  for(let i = 1; i < list.length; i++){
+    if(list[i] < mn) mn = list[i];
+  }
+  return mn;
+}
+const max = list =>  {
+  let mx = list[0];
+  for(let i = 1; i < list.length; i++){
+    if(list[i] > mx) mx = list[i];
+  }
+  return mx;
+}
 ```
