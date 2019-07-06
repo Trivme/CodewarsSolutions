@@ -614,3 +614,14 @@ const rps = (p1, p2) => {
   if(p1 === p2) return 'Draw!';
 };
 ```
+### Find Maximum and Minimum Values of a List
+https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list/
+```javascript
+//var1
+const min = list =>  Math.min(...list);
+const max = list =>  Math.max(...list);
+```
+```javascript
+//var2
+
+```
