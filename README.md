@@ -738,4 +738,12 @@ function broken(x){
     return res;
 }
 ```
+### The Office IV - Find a Meeting Room
+https://www.codewars.com/kata/the-office-iv-find-a-meeting-room/
+```javascript
+function meeting(x){
+  return x.indexOf('O') > -1 ? x.indexOf('O') : 'None available!';
+}
+```
+
 
