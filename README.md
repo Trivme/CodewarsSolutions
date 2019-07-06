@@ -669,3 +669,12 @@ unction sumArray(array) {
   return sum - min -max;
 }
 ```
+### Is the string uppercase?
+https://www.codewars.com/kata/is-the-string-uppercase/javascript
+```javascript
+/// Ask the questions here????
+//define the string prototype here
+String.prototype.isUpperCase = function(){
+  return this.toUpperCase() === this.toString();
+}
+```
