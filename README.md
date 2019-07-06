@@ -766,3 +766,18 @@ for(let i = 0; i < x.length; i++){
 }
 ```
 
+### Merge two sorted arrays into one
+https://www.codewars.com/kata/merge-two-sorted-arrays-into-one
+```javascript
+// NEED to optimise it
+function mergeArrays(arr1, arr2) {
+  
+  const arr = [...arr1, ...arr2].sort((a,b) => a - b);
+  const res = [];
+  for (let i = 0; i < arr.length; i++){
+    if(arr[i] !== arr[i + 1]) res.push(arr[i]);
+  }
+  return res;
+}
+```
+
