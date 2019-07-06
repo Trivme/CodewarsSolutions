@@ -709,5 +709,33 @@ function likes(n) {
   if(l > 3) return `${n[0]}, ${n[1]} and ${l - 2} others like this`;
 }
 ```
-
+### Sum of the first nth term of Series
+https://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/
+```javascript
+function SeriesSum(n){
+  let sum = 0;
+  for(let i = 0; i < n; i++){
+    sum += 1/(i * 3 + 1);
+  }
+  return sum.toFixed(2);
+}
+```
+### The Office III - Broken Photocopier
+https://www.codewars.com/kata/the-office-iii-broken-photocopier/
+```javascript
+// v1
+function broken(x){
+    return x.replace(/[01]/g, (a) =>  a === '0' ? '1' : '0');
+}
+```
+```javascript
+//2 I like it moore! ;-)
+function broken(x){
+    let res = '';
+    for(let i = 0; i < x.length; i++){
+      res += x[i] === '0' ? '1' : '0';
+    }
+    return res;
+}
+```
 
