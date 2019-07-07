@@ -780,4 +780,13 @@ function mergeArrays(arr1, arr2) {
   return res;
 }
 ```
+### Remove duplicate words
+https://www.codewars.com/kata/remove-duplicate-words/
+```javascript
+function removeDuplicateWords (s) {
+ let arr = s.split(' ')
+ arr = arr.filter((elem,index) => arr.indexOf(elem) == index);
+return arr.join(' ')
+}
+```
 
