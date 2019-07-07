@@ -856,5 +856,17 @@ function palindrome(num) {
   return (str.length - cnt) <= 1 ? true : false; 
 }
 ```
+### Minimize Sum Of Array (Array Series #1)
+https://www.codewars.com/kata/5a523566b3bfa84c2e00010b
+```javascript
+function minSum(arr) {
+  let cnt = 0;
+  arr = arr.sort((a,b) => a - b);
+  for(let i = 0; i < arr.length / 2; i++){
+    cnt += arr[i] * arr[arr.length - 1 - i];
+  }
+  return cnt;
+}
+```
 
 
