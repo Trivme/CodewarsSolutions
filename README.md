@@ -838,5 +838,23 @@ let ind = haystack.indexOf('needle');
 return `found the needle at position ${ind}`
 }
 ```
+### Numerical Palindrome #5
+https://www.codewars.com/kata/58e26b5d92d04c7a4f00020a/
+
+```javascript
+function palindrome(num) {
+  if (typeof num !== 'number' || num < 0) return 'Not valid';
+  let cnt = 0;
+  let str = num.toString().split('').sort();
+  if (str.length <= 1) return false;
+  for (let i = 0; i < str.length - 1 ; i++) {
+   if (str[i] === str[i + 1]) {
+     cnt+=2;
+     i++;
+     }  
+  }
+  return (str.length - cnt) <= 1 ? true : false; 
+}
+```
 
 
