@@ -789,4 +789,46 @@ function removeDuplicateWords (s) {
 return arr.join(' ')
 }
 ```
+### Get the mean of an array
+https://www.codewars.com/kata/get-the-mean-of-an-array
+```javascript
+function getAverage(marks){
+  let sum = marks.reduce((a, b) => a + b, 0);
+  let avg = Math.floor(sum / marks.length);
+  return avg; 
+}
+```
+### Find the missing element between two arrays 
+https://www.codewars.com/kata/5a5915b8d39ec5aa18000030
+????
+
+
+### Are the numbers in order?
+https://www.codewars.com/kata/are-the-numbers-in-order/
+```javascript
+function inAscOrder(arr) {
+  let str = arr.join('')
+  let sortStr = arr.sort((a,b) => a - b).join('');
+  if(str === sortStr){
+    return true
+  } else return false ;
+}
+```
+
+### Sort and Star
+https://www.codewars.com/kata/sort-and-star/
+```javascript
+function twoSort(s) {
+  s.sort();
+  return word = s[0].split('').join('***');
+```
+### A Needle in the Haystack
+https://www.codewars.com/kata/a-needle-in-the-haystack/
+```javascript
+function findNeedle(haystack) {
+let ind = haystack.indexOf('needle');
+return `found the needle at position ${ind}`
+}
+```
+
 
