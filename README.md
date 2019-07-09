@@ -868,5 +868,18 @@ function minSum(arr) {
   return cnt;
 }
 ```
+### Difference Of Squares
+https://www.codewars.com/kata/difference-of-squares
+```javascript
+function differenceOfSquares(n){
+  let sqrSum = 0;
+  let sumSqr = 0;
+  for(let i = 1; i <= n; i++){
+    sqrSum += i;
+    sumSqr += i * i;
+  }
+  return (sqrSum * sqrSum) - sumSqr;
+}
+```
 
 
