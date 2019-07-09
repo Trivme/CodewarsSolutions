@@ -881,5 +881,12 @@ function differenceOfSquares(n){
   return (sqrSum * sqrSum) - sumSqr;
 }
 ```
+### Century From Year
+https://www.codewars.com/kata/century-from-year/
+```javascript
+unction century(year) {
+    return Math.ceil(year/100);
+}
+```
 
 
