@@ -905,6 +905,13 @@ function checkExam(array1, array2) {
    return score
 }
 ```
-
+### Discover The Original Price
+https://www.codewars.com/kata/discover-the-original-price/
+```javascript
+function discoverOriginalPrice(discountedPrice, salePercentage){
+   let orPr = discountedPrice * 100 / (100 - salePercentage);
+   return +orPr.toFixed(2);
+}
+```
 
 
