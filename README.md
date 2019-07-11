@@ -925,6 +925,19 @@ function divisors(integer) {
   return div;
 };
 ```
+### Sum of Odd Cubed Numbers
+https://www.codewars.com/kata/sum-of-odd-cubed-numbers
+```javascript
+function cubeOdd(arr) {
+let result = 0;
+let cube = arr.map(item => Math.pow(item, 3));
+if(cube.includes(NaN)) return undefined;
+for(let i = 0; i < cube.length; i++){
+  if(cube[i]%2) result += cube[i];
+}
+return result;
+}
+```
 
 
 
