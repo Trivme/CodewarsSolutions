@@ -938,6 +938,13 @@ for(let i = 0; i < cube.length; i++){
 return result;
 }
 ```
+### Filter Coffee
+https://www.codewars.com/kata/filter-coffee/
+```javascript
+function search(budget, prices) {
+return prices.filter((el) => el <= budget).sort((a,b) => a - b).join(',');
+}
+```
 
 
 
