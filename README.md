@@ -960,7 +960,11 @@ var buy = function(x, arr){
 };
 ```
 
+### Maximum Triplet Sum (Array Series #7)
+https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/
+```javascript
 
+```
 
 
 
