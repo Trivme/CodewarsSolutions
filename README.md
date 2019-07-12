@@ -963,7 +963,14 @@ var buy = function(x, arr){
 ### Maximum Triplet Sum (Array Series #7)
 https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/
 ```javascript
-
+function maxTriSum(numbers){
+   let res = [];
+  let arr = numbers.sort((a,b) => b - a);
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] !== arr[i+1]) res.push(arr[i]);
+  }
+  return res[0] + res[1] + res[2];
+}
 ```
 
 
