@@ -947,6 +947,20 @@ return prices.filter((el) => el <= budget).sort((a,b) => a - b).join(',');
 ```
 ### A Gift Well Spent
 https://www.codewars.com/kata/a-gift-well-spent
+```javascript
+var buy = function(x, arr){
+   for(let i = 0; i < arr.length - 1; i++){
+    for(let j = i + 1; j < arr.length; j++){
+      if(arr[i] + arr[j] === x) {
+         return [i, j];
+     } 
+    } 
+  }
+ return null;
+};
+```
+
+
 
 
 
