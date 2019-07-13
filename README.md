@@ -972,6 +972,20 @@ function maxTriSum(numbers){
   return res[0] + res[1] + res[2];
 }
 ```
+### Find The Parity Outlier
+https://www.codewars.com/kata/find-the-parity-outlier/
+```javascript
+function findOutlier(integers){
+  let oddInEven;
+  let oddArr = integers.filter((el) => el%2);
+  if(oddArr.length === 1) return oddArr[0]
+  else {
+   integers.forEach((el) => {if(el%2 === 0) oddInEven = el})
+  } 
+  return oddInEven;
+}
+```
+
 
 
 
