@@ -985,7 +985,23 @@ function findOutlier(integers){
   return oddInEven;
 }
 ```
-
+### Love vs friendship
+https://www.codewars.com/kata/love-vs-friendship/
+```javascript
+function wordsToMarks(string){
+  let alph = ("abcdefghijklmnopqrstuvwxyz").split('');
+  let strArr = string.split('');
+  let count = 0;
+  console.log(alph, strArr);
+  
+  for(let i = 0; i < strArr.length; i++){
+   for(let j = 0; j < alph.length; j++){
+     if(strArr[i] === alph[j]) count += j+1;
+   }
+  }
+    return count;
+}
+```
 
 
 
