@@ -1000,6 +1000,19 @@ function wordsToMarks(string){
     return count;
 }
 ```
+### Number of People in the Bus
+https://www.codewars.com/kata/number-of-people-in-the-bus/
+```javascript
+let number = function(busStops){
+    let inOut = busStops.join(',').split(',');
+    let count = 0;
+    for(let i = 0; i < inOut.length; i += 2){
+      count = count + +inOut[i] - +inOut[i+1];
+    }
+    return count;
+}
+```
+
 
 
 
