@@ -1026,8 +1026,6 @@ function positiveSum(arr) {
 ### Disemvowel Trolls
 https://www.codewars.com/kata/disemvowel-trolls/
 ```javascript
-function disemvowel(str) {
-  return str.replace(/a/gi, '').replace(/e/gi, '').replace(/i/gi, '').replace(/o/gi, '').replace(/u/gi, '');
-}
+return str.replace(/[aeiou]/gi, '');
 ```
 
