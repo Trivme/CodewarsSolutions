@@ -1005,7 +1005,17 @@ https://www.codewars.com/kata/number-of-people-in-the-bus/
 ```javascript
 llet number = busStops => busStops.reduce((acc,cur) => acc + cur[0] - cur[1],0)
 ```
-
+### Two Sum
+https://www.codewars.com/kata/two-sum/train/javascript
+```javascript
+unction twoSum(numbers, target) {
+  for(let i = 0; i < numbers.length - 1; i++){
+    for(let j = 1; j < numbers.length; j++){
+      if(numbers[i] + numbers[j] === target) return [i, j];
+    }
+  }
+}
+```
 
 
 
