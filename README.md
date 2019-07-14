@@ -1028,4 +1028,14 @@ https://www.codewars.com/kata/disemvowel-trolls/
 ```javascript
 return str.replace(/[aeiou]/gi, '');
 ```
+### For Twins: 2. Math operations
+https://www.codewars.com/kata/for-twins-2-math-operations
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  let a = radius * (2 ** 0.5);
+  let c = bottleLength - rimLength;
+  return Math.floor(a * a * c);
+}
+```
+
 
