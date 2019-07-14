@@ -1023,5 +1023,11 @@ function positiveSum(arr) {
  return arr.filter((el) => el > 0).reduce((acc, cur) => acc + cur, 0);
 }
 ```
-
+### Disemvowel Trolls
+https://www.codewars.com/kata/disemvowel-trolls/
+```javascript
+function disemvowel(str) {
+  return str.replace(/a/gi, '').replace(/e/gi, '').replace(/i/gi, '').replace(/o/gi, '').replace(/u/gi, '');
+}
+```
 
