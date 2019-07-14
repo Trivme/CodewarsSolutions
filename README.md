@@ -1016,6 +1016,12 @@ unction twoSum(numbers, target) {
   }
 }
 ```
-
+### Sum of positive
+https://www.codewars.com/kata/sum-of-positive/
+```javascript
+function positiveSum(arr) {
+ return arr.filter((el) => el > 0).reduce((acc, cur) => acc + cur, 0);
+}
+```
 
 
