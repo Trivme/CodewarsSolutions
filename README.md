@@ -1003,7 +1003,7 @@ function wordsToMarks(string){
 ### Number of People in the Bus
 https://www.codewars.com/kata/number-of-people-in-the-bus/
 ```javascript
-let number = busStops => busStops.reduce((p,n) => p+n[0]-n[1],0)
+llet number = busStops => busStops.reduce((acc,cur) => acc + cur[0] - cur[1],0)
 ```
 
 
