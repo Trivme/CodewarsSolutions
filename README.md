@@ -1121,7 +1121,29 @@ function outed(meet, boss){
   } else return 'Nice Work Champ!'
 }
 ```
-
-
-
+### The Office II - Boredom Score
+https://www.codewars.com/kata/the-office-ii-boredom-score
+```javascript
+function boredom(staff){
+  let dep = {
+    'accounts': 1,
+    'finance' : 2, 
+    'canteen' : 10, 
+    'regulation' : 3, 
+    'trading' : 6, 
+    'change' : 6,
+    'IS' : 8,
+    'retail' : 5,
+    'cleaning' : 4,
+    'pissing about': 25,
+  };
+  let sum = 0;
+  for (let key in staff){
+    sum += dep[staff[key]];
+  }
+    if(sum <= 80) return 'kill me now';
+  if(sum > 80 && sum < 100) return 'i can handle this';
+  if(sum >= 100) return 'party time!!';
+}
+```
 
