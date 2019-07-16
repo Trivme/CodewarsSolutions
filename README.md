@@ -1056,6 +1056,20 @@ function convertRecipe(recipe){
   return arr.join(' ');
 }
 ```
+### Convert string to camel case
+https://www.codewars.com/kata/convert-string-to-camel-case
+```javascript
+function toCamelCase(str){
+  let clearArr = str.replace(/-|_/g, ' ').split(' ');
+  let resArr = [clearArr[0]]
+
+  for(let i = 1; i < clearArr.length; i++){
+    resArr.push(clearArr[i].substring(0, 1).toUpperCase() + clearArr[i].substring(1).toLowerCase());
+  }
+  return resArr.join('');
+}
+```
+
 
 
 
