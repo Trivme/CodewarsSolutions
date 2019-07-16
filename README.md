@@ -1069,6 +1069,12 @@ function toCamelCase(str){
   return resArr.join('');
 }
 ```
+```javascript
+function toCamelCase(str){
+   return str.split(/-|_/g).map((el, i) => (i > 0 ? el.substring(0,1).toUpperCase() + el.slice(1) : el)).join('');
+}
+```
+
 
 
 
