@@ -1040,33 +1040,7 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
 ### Converting Measures
 https://www.codewars.com/kata/converting-measures
 ```javascript
-function convertRecipe(recipe){
-  let arr = recipe.split(' ');
 
-  for(let i = 0; i < arr.length; i++){
-   
-    if(typeof +arr[i] === 'number' && arr[i+1] === 'tbsp'){
-      if(arr[i] === '1/2') {
-        arr[i + 1] = arr[i + 1] + ' (' + Math.ceil(0.5 * 15) + 'g)';
-        i++;
-      } else {
-        arr[i + 1] = arr[i + 1] + ' (' + Math.ceil(arr[i] * 15) + 'g)';
-        i++;
-      }
-    }
-      
-    if(typeof +arr[i] === 'number' && arr[i+1] === 'tsp'){
-        if(arr[i] === '1/2') {
-          arr[i + 1] = arr[i + 1] + ' (' + Math.ceil(0.5 * 5) + 'g)';
-          i++;
-     } else {
-          arr[i + 1] = arr[i + 1] + ' (' + Math.ceil(arr[i] * 5) + 'g)';
-          i++;
-     }
-    }
-  }
-  return arr.join(' ');
-}
 ```
 
 
