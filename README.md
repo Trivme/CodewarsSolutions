@@ -1074,7 +1074,34 @@ function toCamelCase(str){
    return str.split(/-|_/g).map((el, i) => (i > 0 ? el.substring(0,1).toUpperCase() + el.slice(1) : el)).join('');
 }
 ```
-
+### Welcome! OBJECTS
+https://www.codewars.com/kata/welcome
+```javascript
+function greet(language) {
+	let greet = {
+    english: 'Welcome',
+    czech: 'Vitejte',
+    danish: 'Velkomst',
+    dutch: 'Welkom',
+    estonian: 'Tere tulemast',
+    finnish: 'Tervetuloa',
+    flemish: 'Welgekomen',
+    french: 'Bienvenue',
+    german: 'Willkommen',
+    irish: 'Failte',
+    italian: 'Benvenuto',
+    latvian: 'Gaidits',
+    lithuanian: 'Laukiamas',
+    polish: 'Witamy',
+    spanish: 'Bienvenido',
+    swedish: 'Valkommen',
+    welsh: 'Croeso',
+    };
+    if(greet[language]){
+      return greet[language];
+    } else return 'Welcome';
+  }
+```
 
 
 
