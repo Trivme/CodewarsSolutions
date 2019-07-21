@@ -1178,3 +1178,40 @@ const whosOnline = (friends) => {
   return obj;
 }
 ```
+### Simple validation of a username with regex
+https://www.codewars.com/kata/simple-validation-of-a-username-with-regex/
+```javascript
+function validateUsr(username) {
+  return /^[a-z0-9_]{4,16}$/g.test(username);
+}
+```
+### Reverse Vowels In A String
+https://www.codewars.com/kata/reverse-vowels-in-a-string/
+```javascript
+function reverseVowels(str) {
+  let vowels = /[AEIOU]/ig;
+  let strVow = [];
+  let res = str.split('');
+  for(let i = 0; i < str.length; i++){
+    if(vowels.includes(str[i])){
+      strVow.push(str[i]);
+    }  
+  }
+
+  for(let i = 0; i < res.length; i++){
+    if(vowels.includes(res[i])){
+      res[i] = strVow[strVow.length-1];
+      strVow.pop();
+    } 
+  }
+  return res.join('');
+}
+```
+### Bumps in the Road
+https://www.codewars.com/kata/bumps-in-the-road/
+```javascript
+function bump(x){
+
+  return  x.split('n').length > 16 ? 'Car Dead' : 'Woohoo!';
+}
+```
