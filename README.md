@@ -1247,4 +1247,20 @@ function playerManager(players) {
   return list;
 }
 ```
+### Minimum Steps (Array Series #6)
+https://www.codewars.com/kata/minimum-steps-array-series-number-6
+```javascript
+function minimumSteps(numbers, value){
+ numbers.sort((a,b) => a - b);
+ let count = 0;
+ let sum = numbers[0];
+ for(let i = 1; i < numbers.length; i++){
+   if(sum < value){
+     sum += numbers[i];
+     count++;
+   }
+ }
+ return count;
+}
+```
 
