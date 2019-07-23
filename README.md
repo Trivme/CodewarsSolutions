@@ -1263,4 +1263,17 @@ function minimumSteps(numbers, value){
  return count;
 }
 ```
+### 1/n- Cycle // for discussing !!!
+https://www.codewars.com/kata/1-slash-n-cycle/
+```javascript
+function cycle(n) {
+ if (n % 2 == 0 || n % 5 == 0) return -1;
+ 
+  let i = 0, j = 1;
+  while (++i) {
+    j = j * 10 % n;
+     if (j == 1) return i;
+  }
+}
+```
 
