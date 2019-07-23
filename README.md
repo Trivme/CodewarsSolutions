@@ -1276,4 +1276,12 @@ function cycle(n) {
   }
 }
 ```
+### Form The Largest
+https://www.codewars.com/kata/form-the-largest
+```javascript
+function maxNumber(n){
+  let mod = n.toString().split('').map((el)=>+el).sort((a,b) => b - a).join('');
+  return +mod;
+}
+```
 
