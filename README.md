@@ -1284,4 +1284,12 @@ function maxNumber(n){
   return +mod;
 }
 ```
+### Get the Middle Character
+https://www.codewars.com/kata/get-the-middle-character/
+```javascript
+function getMiddle(s){
+  let cl = Math.floor(s.length/2);
+  return (s.length%2 !== 0) ? s.charAt(cl) : s.slice(cl-1, cl+1)
+}
+```
 
