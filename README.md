@@ -1298,4 +1298,17 @@ https://www.codewars.com/kata/javascript-mathematician/
 ```javascript
 
 ```
-
+### Find the odd int
+https://www.codewars.com/kata/find-the-odd-int/
+```javascript
+function findOdd(A) {
+  let countN = 0;
+  for(let i = 0; i < A.length; i++) {
+    for(let j = 0; j < A.length; j++) {  
+      if(A[i] === A[j]) countN++;
+    }
+    if (countN % 2 !== 0) return A[i];
+    }
+    countN = 0;
+}
+```
