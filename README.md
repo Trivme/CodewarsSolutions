@@ -1263,19 +1263,7 @@ function minimumSteps(numbers, value){
  return count;
 }
 ```
-### 1/n- Cycle // for discussing !!!
-https://www.codewars.com/kata/1-slash-n-cycle/
-```javascript
-function cycle(n) {
- if (n % 2 == 0 || n % 5 == 0) return -1;
- 
-  let i = 0, j = 1;
-  while (++i) {
-    j = j * 10 % n;
-     if (j == 1) return i;
-  }
-}
-```
+
 ### Form The Largest
 https://www.codewars.com/kata/form-the-largest
 ```javascript
@@ -1291,5 +1279,23 @@ function getMiddle(s){
   let cl = Math.floor(s.length/2);
   return (s.length%2 !== 0) ? s.charAt(cl) : s.slice(cl-1, cl+1)
 }
+```
+### 1/n- Cycle // for discussing !!!
+https://www.codewars.com/kata/1-slash-n-cycle/
+```javascript
+function cycle(n) {
+ if (n % 2 == 0 || n % 5 == 0) return -1;
+ 
+  let i = 0, j = 1;
+  while (++i) {
+    j = j * 10 % n;
+     if (j == 1) return i;
+  }
+}
+```
+### Javascript Mathematician // for discussing !!!
+https://www.codewars.com/kata/javascript-mathematician/
+```javascript
+
 ```
 
