@@ -1312,3 +1312,12 @@ function findOdd(A) {
     countN = 0;
 }
 ```
+### Highest and Lowest
+https://www.codewars.com/kata/highest-and-lowest/
+```javascript
+function highAndLow(numbers){
+  let numArr = numbers.split(' ');
+  let min = Math.min(...numArr),  max = Math.max(...numArr);
+  return `${max} ${min}`;
+ }; 
+```
