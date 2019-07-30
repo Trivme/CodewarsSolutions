@@ -1321,4 +1321,10 @@ function highAndLow(numbers){
   return `${max} ${min}`;
  }; 
 ```
-
+### Descending Order
+https://www.codewars.com/kata/descending-order
+```javascript
+function descendingOrder(n){
+  return Number(n.toString().split('').sort((a, b) => b-a).join(''));
+}
+```
