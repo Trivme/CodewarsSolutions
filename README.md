@@ -1321,3 +1321,4 @@ function highAndLow(numbers){
   return `${max} ${min}`;
  }; 
 ```
+
