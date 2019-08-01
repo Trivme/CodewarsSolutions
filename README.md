@@ -1329,3 +1329,30 @@ function descendingOrder(n){
 }
 ```
 
+### Playing with cubes I
+https://www.codewars.com/kata/playing-with-cubes-i/train/java
+```java
+public class Cube{
+ int side;
+ 
+ int getSide(){
+   return side;
+ }
+ 
+ void setSide(int side){
+   this.side = side;
+ }
+}
+```
+
+### Lombok Encapsulation
+https://www.codewars.com/kata/lombok-encapsulation/
+```java
+
+```
+
+### Building blocks
+https://www.codewars.com/kata/building-blocks/
+```java
+
+```
