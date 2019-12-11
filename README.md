@@ -1467,3 +1467,17 @@ function elevator(left, right, call){
    return Math.abs(call - left) < Math.abs(call-right) ? "left" : "right";
 }
 ```
+### Squares sequence
+https://www.codewars.com/kata/squares-sequence/train/javascript
+```javascript
+function squares(x, n) {
+  const res = [x];
+  if (n <= 0) return [];
+  for(let i = 1; i < n; i++){
+    let sq = Math.pow(x, 2);
+    res.push(sq);
+    x = sq;
+  }
+  return res;
+}
+```
