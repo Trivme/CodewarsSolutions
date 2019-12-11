@@ -1501,4 +1501,6 @@ https://www.codewars.com/kata/57efcb78e77282f4790003d8/solutions/javascript
 ###Formatting decimal places #1
 https://www.codewars.com/kata/formatting-decimal-places-number-1/train/javascript
 
-###
+###Calculate Price Excluding VAT
+https://www.codewars.com/kata/calculate-price-excluding-vat/train/javascript
+
