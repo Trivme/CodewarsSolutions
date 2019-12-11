@@ -1498,3 +1498,7 @@ function dutyFree(normPrice, discount, hol){
 ###How many times should I go?
 https://www.codewars.com/kata/57efcb78e77282f4790003d8/solutions/javascript
 
+###Formatting decimal places #1
+https://www.codewars.com/kata/formatting-decimal-places-number-1/train/javascript
+
+###
