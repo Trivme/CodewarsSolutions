@@ -1446,3 +1446,10 @@ var FilterString = function(value) {
   return +value.split('').filter(n => !isNaN(n)).join('');
 }
 ```
+### Is integer safe to use?
+https://www.codewars.com/kata/is-integer-safe-to-use/train/javascript
+```javascript
+function SafeInteger(n) {
+  return Number.isSafeInteger(n);
+}
+```
