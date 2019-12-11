@@ -1495,3 +1495,6 @@ function dutyFree(normPrice, discount, hol){
   return (Math.floor(hol / normPrice / discount * 100));
 }
 ```
+###How many times should I go?
+https://www.codewars.com/kata/57efcb78e77282f4790003d8/solutions/javascript
+
