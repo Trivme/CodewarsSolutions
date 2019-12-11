@@ -1460,3 +1460,10 @@ function invert(array) {
    return array.map(el => el * (-1));
 }
 ```
+### Closest elevator
+https://www.codewars.com/kata/closest-elevator/train/javascript
+```javascript
+function elevator(left, right, call){
+   return Math.abs(call - left) < Math.abs(call-right) ? "left" : "right";
+}
+```
