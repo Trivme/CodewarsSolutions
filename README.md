@@ -1453,3 +1453,10 @@ function SafeInteger(n) {
   return Number.isSafeInteger(n);
 }
 ```
+###Invert values
+https://www.codewars.com/kata/invert-values/train/javascript
+```javascript
+function invert(array) {
+   return array.map(el => el * (-1));
+}
+```
