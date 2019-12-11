@@ -1439,3 +1439,10 @@ public class Kata {
   }
 }
 ```
+### Filter the number
+https://www.codewars.com/kata/filter-the-number/train/javascript
+```javascript
+var FilterString = function(value) {
+  return +value.split('').filter(n => !isNaN(n)).join('');
+}
+```
