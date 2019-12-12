@@ -1510,6 +1510,6 @@ https://www.codewars.com/kata/parse-nice-int-from-char-problem/train/javascript
 ###Bin to Decimal
 https://www.codewars.com/kata/57a5c31ce298a7e6b7000334/solutions/javascript
 
-###https://www.codewars.com/kata/parse-float/train/javascript
+###Parse float
 https://www.codewars.com/kata/57a386117cb1f31890000039/solutions/javascript
 
