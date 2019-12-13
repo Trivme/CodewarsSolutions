@@ -1531,3 +1531,6 @@ https://www.codewars.com/kata/545991b4cbae2a5fda000158/solutions/javascript
 
 ###Be Concise IV - Index of an element in an array
 https://www.codewars.com/kata/5703c093022cd1aae90012c9/solutions/javascript
+
+###Square(n) Sum
+https://www.codewars.com/kata/square-n-sum/train/javascript
