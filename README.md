@@ -1556,3 +1556,6 @@ https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/solutions/javascript
 ###Find how many times did a team from a given country win the Champions League?
 https://www.codewars.com/kata/find-how-many-times-did-a-team-from-a-given-country-win-the-champions-league/train/javascript
 
+###filterEvenLengthWords
+https://www.codewars.com/kata/59564f3bcc15b5591a00004a/solutions/javascript
+
