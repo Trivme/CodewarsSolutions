@@ -1526,3 +1526,5 @@ function type(value) {
 ###Is every value in the array an array?
 https://www.codewars.com/kata/is-every-value-in-the-array-an-array/train/javascript
 
+###Enumerable Magic #3 - Does My List Include This?
+https://www.codewars.com/kata/545991b4cbae2a5fda000158/solutions/javascript
