@@ -1523,3 +1523,6 @@ function type(value) {
   return {}.toString.call(value).split(' ')[1].replace(/\]/,'').toLowerCase();
 }
 ```
+###Is every value in the array an array?
+https://www.codewars.com/kata/is-every-value-in-the-array-an-array/train/javascript
+
