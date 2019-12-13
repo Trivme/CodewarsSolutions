@@ -1534,3 +1534,6 @@ https://www.codewars.com/kata/5703c093022cd1aae90012c9/solutions/javascript
 
 ###Square(n) Sum
 https://www.codewars.com/kata/square-n-sum/train/javascript
+
+###Calculate average
+https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/solutions/javascript
