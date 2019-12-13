@@ -1516,4 +1516,10 @@ https://www.codewars.com/kata/57a386117cb1f31890000039/solutions/javascript
 ### Filling an array (part 1)
 https://www.codewars.com/kata/571d42206414b103dc0006a1/solutions/javascript
 
-###
+###What is type of variable?
+https://www.codewars.com/kata/what-is-type-of-variable/train/javascript
+```javascript
+function type(value) {
+  return {}.toString.call(value).split(' ')[1].replace(/\]/,'').toLowerCase();
+}
+```
