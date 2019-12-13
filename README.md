@@ -1528,3 +1528,6 @@ https://www.codewars.com/kata/is-every-value-in-the-array-an-array/train/javascr
 
 ###Enumerable Magic #3 - Does My List Include This?
 https://www.codewars.com/kata/545991b4cbae2a5fda000158/solutions/javascript
+
+###Be Concise IV - Index of an element in an array
+https://www.codewars.com/kata/5703c093022cd1aae90012c9/solutions/javascript
