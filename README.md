@@ -1537,3 +1537,6 @@ https://www.codewars.com/kata/square-n-sum/train/javascript
 
 ###Calculate average
 https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/solutions/javascript
+
+###Odd or Even?
+https://www.codewars.com/kata/5949481f86420f59480000e7/solutions/javascript
