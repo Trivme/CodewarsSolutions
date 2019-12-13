@@ -1543,3 +1543,7 @@ https://www.codewars.com/kata/5949481f86420f59480000e7/solutions/javascript
 
 ###Powers of 2
 https://www.codewars.com/kata/powers-of-2/train/javascript
+
+###A wolf in sheep's clothing
+https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+
