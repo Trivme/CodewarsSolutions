@@ -1579,3 +1579,6 @@ https://www.codewars.com/kata/511f11d355fe575d2c000001/solutions/javascript
 ###String Templates - Bug Fixing #5
 https://www.codewars.com/kata/string-templates-bug-fixing-number-5/train/javascript
 
+###Printing Array elements with Comma delimiters
+https://www.codewars.com/kata/56e2f59fb2ed128081001328/solutions/javascript
+
