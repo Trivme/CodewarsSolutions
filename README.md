@@ -1573,3 +1573,6 @@ https://www.codewars.com/kata/58308360aeb69a460b0002b2/solutions/javascript
 ###My head is at the wrong end!
 https://www.codewars.com/kata/my-head-is-at-the-wrong-end/train/javascript
 
+###Two Oldest Ages
+https://www.codewars.com/kata/511f11d355fe575d2c000001/solutions/javascript
+
