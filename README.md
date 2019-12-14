@@ -1569,3 +1569,7 @@ function duplicates(arr) {
 ```
 ###Train to remove duplicates from an array with filter()
 https://www.codewars.com/kata/58308360aeb69a460b0002b2/solutions/javascript
+
+###My head is at the wrong end!
+https://www.codewars.com/kata/my-head-is-at-the-wrong-end/train/javascript
+
