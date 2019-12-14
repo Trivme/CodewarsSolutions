@@ -1582,3 +1582,6 @@ https://www.codewars.com/kata/string-templates-bug-fixing-number-5/train/javascr
 ###Printing Array elements with Comma delimiters
 https://www.codewars.com/kata/56e2f59fb2ed128081001328/solutions/javascript
 
+###CSV representation of array
+https://www.codewars.com/kata/csv-representation-of-array/train/javascript
+
