@@ -1576,3 +1576,6 @@ https://www.codewars.com/kata/my-head-is-at-the-wrong-end/train/javascript
 ###Two Oldest Ages
 https://www.codewars.com/kata/511f11d355fe575d2c000001/solutions/javascript
 
+###String Templates - Bug Fixing #5
+https://www.codewars.com/kata/string-templates-bug-fixing-number-5/train/javascript
+
