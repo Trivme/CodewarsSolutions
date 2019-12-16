@@ -1585,3 +1585,15 @@ https://www.codewars.com/kata/56e2f59fb2ed128081001328/solutions/javascript
 ###CSV representation of array
 https://www.codewars.com/kata/csv-representation-of-array/train/javascript
 
+##Object
+###Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages
+https://www.codewars.com/kata/5828713ed04efde70e000346/solutions/javascript
+```javascript 1.8
+function countLanguages(list) {
+  let lang = {};
+  for (let i = 0; i < list.length; i++) {
+    (lang[list[i].language] === undefined) ? lang[list[i].language] = 1 : lang[list[i].language]++;
+  }
+  return lang;
+}
+```
