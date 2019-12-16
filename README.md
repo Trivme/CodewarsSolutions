@@ -1597,3 +1597,18 @@ function countLanguages(list) {
   return lang;
 }
 ```
+
+###Numbers to Objects
+https://www.codewars.com/kata/numbers-to-objects/train/javascript
+```javascript 1.8
+function numObj(s){
+  let res = [];
+  
+  s.forEach((el) => {
+    const objInRes = {};
+      objInRes[el.toString()] = String.fromCharCode(el);
+      res.push(objInRes);
+  });
+  return res;
+}
+```
