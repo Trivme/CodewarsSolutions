@@ -1612,3 +1612,23 @@ function numObj(s){
   return res;
 }
 ```
+###Permute a Palindrome
+https://www.codewars.com/kata/permute-a-palindrome/train/javascript
+```javascript
+function permuteAPalindrome (input) { 
+  let arrInp = input.split('');
+  let unicArrInp = [...new Set(input)];
+  console.log(input, arrInp, unicArrInp);
+  const countArr = [];
+  for(let i = 0; i < unicArrInp.length; i++){
+    let count = 0; 
+    for(let j = 0; j < arrInp.length; j++){
+            if(arrInp[j] === unicArrInp[i]) count++;
+    }
+    if(count%2 !== 0) countArr.push(1);
+  }
+  console.log(countArr);
+  return countArr.length <=1;
+}
+```
+
