@@ -1632,3 +1632,28 @@ function permuteAPalindrome (input) {
 }
 ```
 
+###Most valuable character
+https://www.codewars.com/kata/most-valuable-character
+```javascript
+function solve(st) {
+    array = st.split(""); // Создаем Array состоящий из всех символов строки st.
+    let res = ["", 0]; // Создаем массив из состоящий из двух элементов. 
+                       // В первый будем записывать символ, а во второй значение разницы между 
+                       // первый вхождением и последним ( indexOf и lastIndexOf)
+    let counter = 0; // Счетчик кол-ва повторений элемента
+    for(let i = 0; i < array.length; i++){
+        counter = array.lastIndexOf(array[i])- array.indexOf(array[i]); // Присваиваем Каунтеру значение ( indexOf - lastIndexOf) Но если элемент встречается всего один раз, то он будет равен 0, что неправильно
+        if (array.lastIndexOf(array[i]) === array.indexOf(array[i])) counter = 1; // Если элемент встречается всего один раз, 
+                                                                                  // то есть его первое вхождение и последнее равны, то его колличество = 1.
+        if(counter > res[1]){ // Проверяем, разница между indexOf и lastIndexOf больше, чем была в предыдущих элементах или нет.
+            res[1] = counter; // Обновляем counter
+            res[0] = array[i]; // Если больше, то обновляем значение, максимально повторяющегося элемента, то есть записываем в res[0]
+        }else if (counter === res[1] && array[i] < res[0]){ // А тут проверяем, случай если Каунтер равняется res[1] и если равняется, то сразу проверяем, 
+                                                            // если его Код меньше, чем Код уже имеющегося элемента. Например 'a' > 'b'
+          res[0] = array[i]; // Обновляем символ в res
+        }
+   }
+    return res[0];
+    
+}
+```
